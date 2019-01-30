@@ -48,17 +48,6 @@ $(".response").addclass("hide");
     <div id="tfa-form" class="content">
       <h2 class="u-textCenter">Place an Order</h2>
       <p class="u-textCenter">To place an order with Shiftgig On Demand, simply fill out the form below. </p>
-      <!-- FORM: BODY SECTION -->
-      <?php
-    //Set stream options
-    $context = stream_context_create(array('http' => array('ignore_errors' => true)));
-    if(!isset($_GET['tfa_next'])) {
-      echo file_get_contents('http://app.formassembly.com/rest/forms/view/362842',false,$context);
-    } else {
-      echo file_get_contents('http://app.formassembly.com/rest'.$_GET['tfa_next'],false,$context);
-    }
-  ?>
-      <!-- FORM: BODY SECTION --> 
       
     </div>
   </div>
