@@ -1,0 +1,129 @@
+button,
+input[type="submit"],
+.btn {
+	@extend %button;
+	@include appearance(none);
+	cursor: pointer;
+	user-select: none;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.btn--alt {
+	background: $color-light-green;
+	box-shadow: inset 0 -2px darken($color-light-green, 25%);
+	&:hover {
+		background: rgb(157,230,145);
+	}
+	&:active {
+		box-shadow: inset 0 2px darken($color-light-green, 25%);
+	}
+}
+
+.btn--update {
+	background: $color-orange;
+	box-shadow: inset 0 -2px darken($color-orange, 25%);
+	&:hover {
+		background: rgb(255,211,89);
+	}
+	&:active {
+		box-shadow: inset 0 2px darken($color-orange, 25%);
+	}
+}
+
+.btn--remove {
+	background: $color-red;
+	box-shadow: inset 0 -2px darken($color-red, 25%);
+	&:hover {
+		background: rgb(255,102,117);
+	}
+	&:active {
+		box-shadow: inset 0 2px darken($color-red, 25%);
+	}
+}
+
+.btn--hollow {
+	background: none;
+	border: 1px solid $color-blue;
+	color: $color-blue;
+	box-shadow: none;
+	&:hover {
+		border-color: $color-light-green;
+		color: $color-light-green;
+		background: none;
+	}
+	&:active {
+		background: none;
+		border: 1px solid $color-blue;
+		color: $color-blue;
+		background: none;
+	}
+}
+
+.btn--hollowOnDark {
+	background: none;
+	border: 1px solid $color-blue;
+	color: white;
+	box-shadow: none;
+	&:hover {
+		border-color: $color-neon-green;
+		color: $color-neon-green;
+		background: none;
+	}
+	&:active {
+		background: none;
+		border: 1px solid $color-blue;
+		color: white;
+		background: none;
+	}
+}
+
+.btn--disabled {
+	background: rgb(221,221,221);
+	box-shadow: inset 0 -2px darken(rgb(221,221,221), 25%);
+	color: rgb(201,201,201);
+}
+
+.btn--small {
+  font-size: $fontSize-small;
+  padding: .5em .875em;
+  border-radius: 4px;
+}
+
+.btn--smaller {
+  font-size: $fontSize-smaller;
+  padding: .5em;
+  border-radius: 4px;
+}
+
+.btn--large {
+  font-size: $fontSize-base;
+  padding: 1em 1.25em;
+}
+
+.btn--link {
+  background: none;
+  border: none;
+  box-shadow: none;
+  color: $color-blue;
+  &:hover {
+		border: none;
+		background: none;
+		color: $color-neon-green;
+		box-shadow: none;
+  }
+	&:active {
+		background: none;
+		border: none;
+		box-shadow: none;
+	}
+}
+
+.btn--subtle {
+  font-weight: 300;
+  text-transform: none;
+}
+
+.btn--fullwidth {
+  width: 100%;
+}

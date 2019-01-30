@@ -1,0 +1,41 @@
+/* Utility Classes & Mixins */
+
+.u-textLeft{
+	text-align: left;
+}
+.u-textRight {
+	text-align: right;
+}
+.u-textCenter {
+	text-align: center
+}
+.u-center {
+	margin: 0 auto;
+}
+.u-pullRight {
+	float: right;
+}
+.u-pullLeft {
+  float: left;
+}
+.u-red {
+  color: $color-red;
+}
+.u-fixed-top {
+  position: fixed !important;
+  top: 0 !important;
+  backface-visibility: hidden;
+}
+.u-noBreak {
+  white-space: nowrap;
+}
+.u-tighterText {
+  letter-spacing: -1px;
+}
+.u-accessible {
+  position: fixed;
+  display: block;
+  height: 0px;
+  width: 0px;
+  text-indent: em(-9999);
+}

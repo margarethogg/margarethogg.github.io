@@ -1,0 +1,122 @@
+.wForm {
+	background-color: white;
+	border-radius: 8px;
+}
+.wFormContainer fieldset {
+	border: none!important;
+	background-color: inherit;
+}
+.wFormContainer fieldset > fieldset {
+	background-color: rgba(186,222,87,1);
+}
+.wFormContainer legend {
+	font-size: 30px;
+	color: rgba(186,222,87,1);
+}
+.wFormContainer form a:link {
+	color: rgba(56,176,237,1);
+}
+.wFormContainer input.upload {
+	background: blue;
+}
+.wFormContainer .primaryAction, .wForm .secondaryAction {
+	padding: 13px 28px 13px 28px!important;
+	margin: 15px;
+}
+.wFormContainer .supportInfo {
+    display: none;
+}
+.wFormContainer .errMsg {
+	font-size: 12px;
+}
+.wFormContainer select {
+	margin-bottom:0px;
+}
+.wFormThankYou {
+	margin: 20px!important;
+}
+
+/* Mobile View */
+@media (min-width: 0px) and (max-width: 640px) {
+	/*
+	Form field widths for desktop are set through FormAssembly's FormBuilder.
+	This code sets all fields to the same visual width for mobile.
+	*/
+
+	.wFormContainer {
+		width: 100%!important;
+		padding: 0px 0px!important;
+	}
+	.wForm {
+		margin: 0 auto;
+		padding: 0px 0px!important;
+	}
+	.wFormContainer textarea {
+		height: 180px!important;
+	}
+	.wFormContainer span.duplicateSpan, 
+	.wFormContainer span.removeSpan {
+		float: none;
+	}
+	.wFormContainer a.duplicateLink, 
+	.wFormContainer a.removeLink {
+		margin-right: 0;
+	}
+	.wFormContainer label,
+	.wFormContainer table,
+	.wFormContainer .response {
+		text-align: left;
+	}
+	.wFormContainer label, 
+	.wFormContainer textarea, 
+	.wFormContainer input[type='submit'], 
+	.wFormContainer input[type='text'], 
+	.wFormContainer .field-hint-inactive, 
+	.wFormContainer .htmlSection {
+		width: 240px!important;
+	}
+	.wFormContainer select,
+	.wFormContainer .inputWrapper {
+		width: 245px!important;
+	}
+	.wFormContainer .inputWrapper {
+		display: block;
+	}
+	.wFormContainer label.postField {
+		font-size: 80%;
+	}
+	.wFormContainer .htmlSection img {
+		max-width: 240px!important;
+		height: auto;
+	}
+	/*confirm*/
+	.wFormContainer table,
+	.wFormContainer .response {
+		width: 240px;
+	}
+	.reviewFooter {
+		width: 250px;
+		margin: 0 auto;
+		text-align: center!important;
+	}
+	.wFormContainer .question,  /*try to format table for mobile*/
+	.reviewFooter img.icon { /*remove divider on confirmation links*/
+		display: none;
+	}
+	.reviewFooter input.primaryAction,
+	.wFormContainer .response,
+	.wFormContainer .onefield {
+		display: block;
+	}
+	.reviewFooter a:after {
+		/*Since the confirmation link images aren't wrapped inside the links, 
+		and they're not set up as a list, 
+		force a break after each link*/
+		content: '\a';
+		white-space: pre;
+	}
+	.duplicateLink,
+	.removeLink {
+		display: block;
+	}
+}

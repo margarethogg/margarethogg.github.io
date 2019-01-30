@@ -1,0 +1,81 @@
+.leadGenForm label,
+.contactForm label {
+  display: block;
+  width: auto;
+  height: auto;
+  position: static;
+  text-indent: 0px;
+}
+.whyOnDemand-image,
+.whyOnDemand-text {
+  float: left!important; 
+  display: inline; 
+  margin-right: 20px!important; 
+  margin-left: 0px!important;}
+.whyOnDemand-section { display: block; clear: both; }
+.btn {
+  width: auto!important;
+}
+.whatDo-section {
+  position: static;
+  margin-left: 10px!important; 
+  margin-right: 10px!important; 
+}
+.logo {
+  background-image: url(../images/sod-logo.png);
+      background-repeat: no-repeat!important;
+      background-size: auto 100%!important;
+      height: 37px;
+      width: 380px;
+}
+.logo--sgx {
+  background-image: url(../images/sgx-logo.png);
+      background-repeat: no-repeat!important;
+    background-size: 37px auto!important;
+}
+.logo--bp {
+  background-image: url(../images/bp-logo.png);
+      background-repeat: no-repeat!important;
+    background-size: 37px auto!important;
+}
+.logo--onDark {
+    background-image: url(../images/sod-logo-ondark.png); 
+      background-repeat: no-repeat!important;
+    background-size: auto 100%!important;
+}
+
+.logo--onDark {
+    background-image: url(../images/sod-logo-ondark.png); 
+      background-repeat: no-repeat!important;
+    background-size: auto 100%!important;
+}
+.hero {
+  background-image: none;
+}
+.hero--client {
+      background-image: url(../images/sod-client-hero-ie.jpg)!important;
+      background-repeat: no-repeat!important;
+      background-color: #e6ebec!important;
+
+}
+.hero--worker {
+      background-image: url(../images/sod-worker-hero-ie.jpg)!important;
+      background-repeat: no-repeat!important;
+      background-color: #e6ebec!important;
+}
+ol.howItWorks-list li {
+  display: inline;
+}
+.footer {
+  margin-bottom: 0;
+}
+
+.whatPeopleAreSaying-videoWrap {
+  width: 1275px;
+  height: 727px;
+}
+.whatPeopleAreSaying-poster {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/sod-client-video.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/sod-client-video.jpg', sizingMethod='scale')";
+  margin: 0 auto;
+}
