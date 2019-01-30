@@ -150,15 +150,15 @@ header.header--orderForm  {
 	@include fill-parent;
 }
 .logo--sgx {
-	background: url('../images/sgx-logo.png') no-repeat left top;
+	background: url('/images/sgx-logo.png') no-repeat left top;
 	background-size: contain;
 }
 .logo--bp {
-	background: url('../images/bp-logo.png') no-repeat left top;
+	background: url('/images/bp-logo.png') no-repeat left top;
 	background-size: contain;
 }
 .logo--onDark {
-	background: url('../images/sod-logo-ondark.png') no-repeat;
+	background: url('/images/sod-logo-ondark.png') no-repeat;
 }
 ul.nav-topLinks {
 	float: left;
@@ -219,19 +219,19 @@ ul.nav-topLinks a {
     }
 }
 .hero--client {
-	@include background-image(url("../images/sod-client-hero-mobile.jpg"));
+	@include background-image(url("/images/sod-client-hero-mobile.jpg"));
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	@include media($medium-screen-up) {
-		background: url('../images/sod-client-hero.jpg') top left;
+		background: url('/images/sod-client-hero.jpg') top left;
 		background-size: cover;
 		background-position: center top;
 	}
 }
 .hero--worker {
 	@include media($medium-screen-up) {
-		@include background-image(url("../images/sod-worker-hero-hand.png"), url("../images/sod-worker-hero.jpg"));
+		@include background-image(url("/images/sod-worker-hero-hand.png"), url("/images/sod-worker-hero.jpg"));
 		background-position: bottom right, center top;
 		background-repeat: no-repeat, no-repeat;
 		background-size: 40%, cover;
@@ -239,7 +239,7 @@ ul.nav-topLinks a {
 	@include media($large-screen-up) {
 		background-size: contain, cover;
 	}
-	@include background-image(url("../images/sod-worker-hero-mobile.jpg"));
+	@include background-image(url("/images/sod-worker-hero-mobile.jpg"));
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -267,33 +267,33 @@ ul.nav-topLinks a {
 	}
 }
 li.howItWorks-one {
-	@include background-image(url("../images/sod-how-it-works-1-down.png"));
+	@include background-image(url("/images/sod-how-it-works-1-down.png"));
 	@include media($medium-screen-up) {
-		@include background-image(url("../images/sod-how-it-works-1.png"));
+		@include background-image(url("/images/sod-how-it-works-1.png"));
   	}   
 }
 li.howItWorks-two {
-	@include background-image(url("../images/sod-how-it-works-2-down.png"));
+	@include background-image(url("/images/sod-how-it-works-2-down.png"));
 	@include media($medium-screen-up) {
-		@include background-image(url("../images/sod-how-it-works-2.png"));
+		@include background-image(url("/images/sod-how-it-works-2.png"));
   	}   
 }
 li.howItWorks-three {
-	@include background-image(url("../images/sod-how-it-works-3-down.png"));
+	@include background-image(url("/images/sod-how-it-works-3-down.png"));
 	@include media($medium-screen-up) {
-		@include background-image(url("../images/sod-how-it-works-3.png"));
+		@include background-image(url("/images/sod-how-it-works-3.png"));
   	}   
 }
 li.howItWorks-threeEnd {
-	@include background-image(url("../images/sod-how-it-works-3-end-down.png"));
+	@include background-image(url("/images/sod-how-it-works-3-end-down.png"));
 	@include media($medium-screen-up) {
-		@include background-image(url("../images/sod-how-it-works-3-end.png"));
+		@include background-image(url("/images/sod-how-it-works-3-end.png"));
   	}   
 }
 li.howItWorks-four {
-	@include background-image(url("../images/sod-how-it-works-4-down.png"));
+	@include background-image(url("/images/sod-how-it-works-4-down.png"));
 	@include media($medium-screen-up) {
-		@include background-image(url("../images/sod-how-it-works-4.png"));
+		@include background-image(url("/images/sod-how-it-works-4.png"));
   	}   
 }
 
@@ -584,11 +584,11 @@ label.error {
 	@include fill-parent;
 	z-index: $zIndex-1;
 	height: 100%;
-	background: url('../images/sod-client-video-mobile.jpg') top left;
+	background: url('/images/sod-client-video-mobile.jpg') top left;
 	background-repeat: no-repeat;
 	background-size: cover;
 	@include media($medium-screen-up) {
-		background: url('../images/sod-client-video.jpg') top left;
+		background: url('/images/sod-client-video.jpg') top left;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}

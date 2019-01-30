@@ -418,56 +418,56 @@ input[type="submit"],
   font-family: "MuseoSans";
   font-weight: 300;
   font-style: normal;
-  src: url("../fonts/MuseoSans-300.eot");
-  src: url("../fonts/MuseoSans-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSans-300.woff") format("woff"), url("../fonts/MuseoSans-300.ttf") format("truetype"), url("../fonts/MuseoSans-300.svg#MuseoSans") format("svg"); }
+  src: url("/fonts/MuseoSans-300.eot");
+  src: url("/fonts/MuseoSans-300.eot?#iefix") format("embedded-opentype"), url("/fonts/MuseoSans-300.woff") format("woff"), url("/fonts/MuseoSans-300.ttf") format("truetype"), url("/fonts/MuseoSans-300.svg#MuseoSans") format("svg"); }
 @font-face {
   font-family: "MuseoSans";
   font-weight: 100;
   font-style: normal;
-  src: url("../fonts/MuseoSans-100.eot");
-  src: url("../fonts/MuseoSans-100.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSans-100.woff") format("woff"), url("../fonts/MuseoSans-100.ttf") format("truetype"), url("../fonts/MuseoSans-100.svg#MuseoSans") format("svg"); }
+  src: url("/fonts/MuseoSans-100.eot");
+  src: url("/fonts/MuseoSans-100.eot?#iefix") format("embedded-opentype"), url("/fonts/MuseoSans-100.woff") format("woff"), url("/fonts/MuseoSans-100.ttf") format("truetype"), url("/fonts/MuseoSans-100.svg#MuseoSans") format("svg"); }
 @font-face {
   font-family: "MuseoSans";
   font-weight: 700;
   font-style: normal;
-  src: url("../fonts/MuseoSans-700.eot");
-  src: url("../fonts/MuseoSans-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSans-700.woff") format("woff"), url("../fonts/MuseoSans-700.ttf") format("truetype"), url("../fonts/MuseoSans-700.svg#MuseoSans") format("svg"); }
+  src: url("/fonts/MuseoSans-700.eot");
+  src: url("/fonts/MuseoSans-700.eot?#iefix") format("embedded-opentype"), url("/fonts/MuseoSans-700.woff") format("woff"), url("/fonts/MuseoSans-700.ttf") format("truetype"), url("/fonts/MuseoSans-700.svg#MuseoSans") format("svg"); }
 @font-face {
   font-family: "MuseoSans";
   font-weight: 900;
   font-style: normal;
-  src: url("../fonts/MuseoSans-900.eot");
-  src: url("../fonts/MuseoSans-900.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSans-900.woff") format("woff"), url("../fonts/MuseoSans-900.ttf") format("truetype"), url("../fonts/MuseoSans-900.svg#MuseoSans") format("svg"); }
+  src: url("/fonts/MuseoSans-900.eot");
+  src: url("/fonts/MuseoSans-900.eot?#iefix") format("embedded-opentype"), url("/fonts/MuseoSans-900.woff") format("woff"), url("/fonts/MuseoSans-900.ttf") format("truetype"), url("/fonts/MuseoSans-900.svg#MuseoSans") format("svg"); }
 @font-face {
   font-family: "MuseoSansRounded";
   font-weight: 100;
   font-style: normal;
-  src: url("../fonts/MuseoSansRounded-100.eot");
-  src: url("../fonts/MuseoSansRounded-100.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansRounded-100.woff") format("woff"), url("../fonts/MuseoSansRounded-100.ttf") format("truetype"), url("../fonts/MuseoSansRounded-100.svg#MuseoSansRounded") format("svg"); }
+  src: url("/fonts/MuseoSansRounded-100.eot");
+  src: url("/fonts/MuseoSansRounded-100.eot?#iefix") format("embedded-opentype"), url("/fonts/MuseoSansRounded-100.woff") format("woff"), url("/fonts/MuseoSansRounded-100.ttf") format("truetype"), url("/fonts/MuseoSansRounded-100.svg#MuseoSansRounded") format("svg"); }
 @font-face {
   font-family: "MuseoSansRounded";
   font-weight: 300;
   font-style: normal;
-  src: url("../fonts/MuseoSansRounded-300.eot");
-  src: url("../fonts/MuseoSansRounded-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansRounded-300.woff") format("woff"), url("../fonts/MuseoSansRounded-300.ttf") format("truetype"), url("../fonts/MuseoSansRounded-300.svg#MuseoSansRounded") format("svg"); }
+  src: url("/fonts/MuseoSansRounded-300.eot");
+  src: url("/fonts/MuseoSansRounded-300.eot?#iefix") format("embedded-opentype"), url("/fonts/MuseoSansRounded-300.woff") format("woff"), url("/fonts/MuseoSansRounded-300.ttf") format("truetype"), url("/fonts/MuseoSansRounded-300.svg#MuseoSansRounded") format("svg"); }
 @font-face {
   font-family: "MuseoSansRounded";
   font-weight: 500;
   font-style: normal;
-  src: url("../fonts/MuseoSansRounded-500.eot");
-  src: url("../fonts/MuseoSansRounded-500.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansRounded-500.woff") format("woff"), url("../fonts/MuseoSansRounded-500.ttf") format("truetype"), url("../fonts/MuseoSansRounded-500.svg#MuseoSansRounded") format("svg"); }
+  src: url("/fonts/MuseoSansRounded-500.eot");
+  src: url("/fonts/MuseoSansRounded-500.eot?#iefix") format("embedded-opentype"), url("/fonts/MuseoSansRounded-500.woff") format("woff"), url("/fonts/MuseoSansRounded-500.ttf") format("truetype"), url("/fonts/MuseoSansRounded-500.svg#MuseoSansRounded") format("svg"); }
 @font-face {
   font-family: "MuseoSansRounded";
   font-weight: 700;
   font-style: normal;
-  src: url("../fonts/MuseoSansRounded-700.eot");
-  src: url("../fonts/MuseoSansRounded-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansRounded-700.woff") format("woff"), url("../fonts/MuseoSansRounded-700.ttf") format("truetype"), url("../fonts/MuseoSansRounded-700.svg#MuseoSansRounded") format("svg"); }
+  src: url("/fonts/MuseoSansRounded-700.eot");
+  src: url("/fonts/MuseoSansRounded-700.eot?#iefix") format("embedded-opentype"), url("/fonts/MuseoSansRounded-700.woff") format("woff"), url("/fonts/MuseoSansRounded-700.ttf") format("truetype"), url("/fonts/MuseoSansRounded-700.svg#MuseoSansRounded") format("svg"); }
 @font-face {
   font-family: "MuseoSansRounded";
   font-weight: 900;
   font-style: normal;
-  src: url("../fonts/MuseoSansRounded-900.eot");
-  src: url("../fonts/MuseoSansRounded-900.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansRounded-900.woff") format("woff"), url("../fonts/MuseoSansRounded-900.ttf") format("truetype"), url("../fonts/MuseoSansRounded-900.svg#MuseoSansRounded") format("svg"); }
+  src: url("/fonts/MuseoSansRounded-900.eot");
+  src: url("/fonts/MuseoSansRounded-900.eot?#iefix") format("embedded-opentype"), url("/fonts/MuseoSansRounded-900.woff") format("woff"), url("/fonts/MuseoSansRounded-900.ttf") format("truetype"), url("/fonts/MuseoSansRounded-900.svg#MuseoSansRounded") format("svg"); }
 body {
   font-family: "MuseoSansRounded", Helvetica, sans-serif;
   font-size: 18px;
@@ -1046,8 +1046,8 @@ input[type="submit"],
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../fonts//fontawesome-webfont.eot?v=4.2.0");
-  src: url("../fonts//fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("../fonts//fontawesome-webfont.woff?v=4.2.0") format("woff"), url("../fonts//fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("../fonts//fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
+  src: url("/fonts//fontawesome-webfont.eot?v=4.2.0");
+  src: url("/fonts//fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("/fonts//fontawesome-webfont.woff?v=4.2.0") format("woff"), url("/fonts//fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("/fonts//fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 .fa {
@@ -2937,27 +2937,26 @@ ul.nav-topLinks a {
       margin-right: 0.625em; } }
 
 .hero--client {
-  background-image: url("../images/sod-client-hero-mobile.jpg");
-  background-image: url("../images/sod-client-hero-mobile.jpg");
+  background-image: url("/images/sod-client-hero-mobile.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover; }
   @media screen and (min-width: 48.0625em) {
     .hero--client {
-      background: url("../images/sod-client-hero.jpg") top left;
+      background: url("/images/sod-client-hero.jpg") top left;
       background-size: cover;
       background-position: center top; } }
 
 .hero--worker {
-  background-image: url("../images/sod-worker-hero-mobile.jpg");
-  background-image: url("../images/sod-worker-hero-mobile.jpg");
+  background-image: url("/images/sod-worker-hero-mobile.jpg");
+  background-image: url("/images/sod-worker-hero-mobile.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover; }
   @media screen and (min-width: 48.0625em) {
     .hero--worker {
-      background-image: url("../images/sod-worker-hero-hand.png"), url("../images/sod-worker-hero.jpg");
-      background-image: url("../images/sod-worker-hero-hand.png"), url("../images/sod-worker-hero.jpg");
+      background-image: url("/images/sod-worker-hero-hand.png"), url("/images/sod-worker-hero.jpg");
+      background-image: url("/images/sod-worker-hero-hand.png"), url("/images/sod-worker-hero.jpg");
       background-position: bottom right, center top;
       background-repeat: no-repeat, no-repeat;
       background-size: 40%, cover; } }
@@ -2989,44 +2988,44 @@ ol.howItWorks-list li {
         clear: left; } }
 
 li.howItWorks-one {
-  background-image: url("../images/sod-how-it-works-1-down.png");
-  background-image: url("../images/sod-how-it-works-1-down.png"); }
+  background-image: url("/images/sod-how-it-works-1-down.png");
+  background-image: url("/images/sod-how-it-works-1-down.png"); }
   @media screen and (min-width: 48.0625em) {
     li.howItWorks-one {
-      background-image: url("../images/sod-how-it-works-1.png");
-      background-image: url("../images/sod-how-it-works-1.png"); } }
+      background-image: url("/images/sod-how-it-works-1.png");
+      background-image: url("/images/sod-how-it-works-1.png"); } }
 
 li.howItWorks-two {
-  background-image: url("../images/sod-how-it-works-2-down.png");
-  background-image: url("../images/sod-how-it-works-2-down.png"); }
+  background-image: url("/images/sod-how-it-works-2-down.png");
+  background-image: url("/images/sod-how-it-works-2-down.png"); }
   @media screen and (min-width: 48.0625em) {
     li.howItWorks-two {
-      background-image: url("../images/sod-how-it-works-2.png");
-      background-image: url("../images/sod-how-it-works-2.png"); } }
+      background-image: url("/images/sod-how-it-works-2.png");
+      background-image: url("/images/sod-how-it-works-2.png"); } }
 
 li.howItWorks-three {
-  background-image: url("../images/sod-how-it-works-3-down.png");
-  background-image: url("../images/sod-how-it-works-3-down.png"); }
+  background-image: url("/images/sod-how-it-works-3-down.png");
+  background-image: url("/images/sod-how-it-works-3-down.png"); }
   @media screen and (min-width: 48.0625em) {
     li.howItWorks-three {
-      background-image: url("../images/sod-how-it-works-3.png");
-      background-image: url("../images/sod-how-it-works-3.png"); } }
+      background-image: url("/images/sod-how-it-works-3.png");
+      background-image: url("/images/sod-how-it-works-3.png"); } }
 
 li.howItWorks-threeEnd {
-  background-image: url("../images/sod-how-it-works-3-end-down.png");
-  background-image: url("../images/sod-how-it-works-3-end-down.png"); }
+  background-image: url("/images/sod-how-it-works-3-end-down.png");
+  background-image: url("/images/sod-how-it-works-3-end-down.png"); }
   @media screen and (min-width: 48.0625em) {
     li.howItWorks-threeEnd {
-      background-image: url("../images/sod-how-it-works-3-end.png");
-      background-image: url("../images/sod-how-it-works-3-end.png"); } }
+      background-image: url("/images/sod-how-it-works-3-end.png");
+      background-image: url("/images/sod-how-it-works-3-end.png"); } }
 
 li.howItWorks-four {
-  background-image: url("../images/sod-how-it-works-4-down.png");
-  background-image: url("../images/sod-how-it-works-4-down.png"); }
+  background-image: url("/images/sod-how-it-works-4-down.png");
+  background-image: url("/images/sod-how-it-works-4-down.png"); }
   @media screen and (min-width: 48.0625em) {
     li.howItWorks-four {
-      background-image: url("../images/sod-how-it-works-4.png");
-      background-image: url("../images/sod-how-it-works-4.png"); } }
+      background-image: url("/images/sod-how-it-works-4.png");
+      background-image: url("/images/sod-how-it-works-4.png"); } }
 
 /* Client What We Do Section*/
 @media screen and (min-width: 48.0625em) {
@@ -3405,12 +3404,12 @@ html, body {
   width: 100%;
   z-index: 10;
   height: 100%;
-  background: url("../images/sod-client-video-mobile.jpg") top left;
+  background: url("/images/sod-client-video-mobile.jpg") top left;
   background-repeat: no-repeat;
   background-size: cover; }
   @media screen and (min-width: 48.0625em) {
     .whatPeopleAreSaying-poster {
-      background: url("../images/sod-client-video.jpg") top left;
+      background: url("/images/sod-client-video.jpg") top left;
       background-repeat: no-repeat;
       background-size: cover; } }
 
