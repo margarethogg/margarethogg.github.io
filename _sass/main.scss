@@ -135,7 +135,7 @@ header.header--orderForm  {
   	display: block;
   	text-indent: em(-9999);
   	position: relative;
-	background: url('../images/sod-logo.svg') no-repeat left top;
+	background: url('/images/sod-logo.svg') no-repeat left top;
 	background-size: contain;
 	@include fill-parent;
 	height: em(25);
@@ -158,7 +158,7 @@ header.header--orderForm  {
 	background-size: contain;
 }
 .logo--onDark {
-	background: url('../images/sod-logo-ondark.svg') no-repeat;
+	background: url('../images/sod-logo-ondark.png') no-repeat;
 }
 ul.nav-topLinks {
 	float: left;
