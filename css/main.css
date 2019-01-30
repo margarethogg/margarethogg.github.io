@@ -2856,7 +2856,7 @@ header.header--orderForm {
   display: block;
   text-indent: -624.9375em;
   position: relative;
-  background: url("../images/sod-logo.svg") no-repeat left top;
+  background: url("/images/sod-logo.svg") no-repeat left top;
   background-size: contain;
   width: 100%;
   height: 1.5625em; }
@@ -2870,15 +2870,15 @@ header.header--orderForm {
   width: 100%; }
 
 .logo--sgx {
-  background: url("../images/sgx-logo.svg") no-repeat left top;
+  background: url("/images/sgx-logo.png") no-repeat left top;
   background-size: contain; }
 
 .logo--bp {
-  background: url("../images/bp-logo.svg") no-repeat left top;
+  background: url("/images/bp-logo.png") no-repeat left top;
   background-size: contain; }
 
 .logo--onDark {
-  background: url("../images/sod-logo-ondark.svg") no-repeat; }
+  background: url("/images/sod-logo-ondark.svg") no-repeat; }
 
 ul.nav-topLinks {
   float: left;
